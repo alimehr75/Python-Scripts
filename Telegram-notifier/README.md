@@ -1,9 +1,10 @@
 ## Telegram Notifier Script
 
-First of all it's better to copy your publik ssh-key in servers:
+First of all it's better to copy your public ssh-key into servers:
    ```
    ssh-copy-id -p SSH_PORT SSH_USER@IP
    ```
+## Run Script 
 
 1. First install requirements 
    
