@@ -1,0 +1,14 @@
+/var/log/connectivity.log {
+
+	missingok
+	notifempty
+	daily
+	rotate 3
+	maxsize=10M
+	dateext dateformat -%Y-%m-%d
+	postrotate
+				  echo "A rotation has reached! be carefull!" | mail root
+	endscript
+	create 644 root root
+
+}
